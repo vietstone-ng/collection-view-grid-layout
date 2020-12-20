@@ -191,12 +191,12 @@ open class CollectionViewVerticalGridLayout: UICollectionViewLayout {
 public extension CollectionViewVerticalGridLayout {
 
     enum Defaults {
-        public static let numberOfColumns: Int = 1
-        public static let rowSpacing: CGFloat = 0
-        public static let columnSpacing: CGFloat = 0
-        public static let itemHeight: CGFloat = 50
-        public static let columnWeight: CGFloat = 1
-        public static let sectionInset: UIEdgeInsets = .zero
+        public static var numberOfColumns: Int = 1
+        public static var rowSpacing: CGFloat = 0
+        public static var columnSpacing: CGFloat = 0
+        public static var itemHeight: CGFloat = 50
+        public static var columnWeight: CGFloat = 1
+        public static var sectionInset: UIEdgeInsets = .zero
     }
 
     struct MeasureInfo {

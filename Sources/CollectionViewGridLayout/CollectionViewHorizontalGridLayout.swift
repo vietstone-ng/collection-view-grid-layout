@@ -191,12 +191,12 @@ open class CollectionViewHorizontalGridLayout: UICollectionViewLayout {
 public extension CollectionViewHorizontalGridLayout {
 
     enum Defaults {
-        public static let numberOfRows: Int = 1
-        public static let rowSpacing: CGFloat = 0
-        public static let columnSpacing: CGFloat = 0
-        public static let itemWidth: CGFloat = 50
-        public static let rowWeight: CGFloat = 1
-        public static let sectionInset: UIEdgeInsets = .zero
+        public static var numberOfRows: Int = 1
+        public static var rowSpacing: CGFloat = 0
+        public static var columnSpacing: CGFloat = 0
+        public static var itemWidth: CGFloat = 50
+        public static var rowWeight: CGFloat = 1
+        public static var sectionInset: UIEdgeInsets = .zero
     }
 
     struct MeasureInfo {
